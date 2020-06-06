@@ -1,5 +1,5 @@
 /* media queries CSS*/
-@media (max-width: 900px) {
+@media (max-width: 900px) { /*do tamanho de página 0 a 900 recebe a formatação*/
   #page-home {
     background-position-x: 70vw;
   }
@@ -22,6 +22,14 @@
 
   #page-search-results .cards {
     grid-template-columns: 1fr;
+  }
+
+  #page-create-point .field-group {
+    flex-direction: column;
+  }
+
+  #page-create-point .field-group .field + .field { /*um field seguido de outro field*/
+    margin-left: 0;
   }
 }
 
