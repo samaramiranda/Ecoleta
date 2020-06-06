@@ -79,6 +79,7 @@ function handleSelectedItem(event) { //quando o evento "click" ocorrer entra na 
       return itemIsDifferente //se o item clicado for diferente ele retorna "true"
     })
     selectedItems = filteredItems //quando filtrar os items selecionados eu coloco eles nos items selecionados
+  
   } else {//se o item não estiver selecionado, adicionar a seleção
     selectedItems.push(itemId)//adicionando o item no array
   }
